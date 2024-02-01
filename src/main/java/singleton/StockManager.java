@@ -45,5 +45,5 @@ public class StockManager {
         }
         return null; // Returnăm null dacă stocul nu este găsit
     }
-    // Alte metode pentru gestionarea stocurilor
+
 }

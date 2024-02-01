@@ -12,17 +12,17 @@ public class Portfolio {
         this.stocks = stocks;
     }
 
-    // Constructor pentru un portofoliu gol
+
     public Portfolio() {
         this.stocks = new ArrayList<>();
     }
 
-    // Getter pentru lista de stocuri
+
     public List<Stock> getStocks() {
         return stocks;
     }
 
-    // Metodă pentru adăugarea unui stock în portofoliu
+
     public void addStock(Stock stock, int quantityToAdd) {
         boolean stockExists = false;
 
@@ -42,15 +42,13 @@ public class Portfolio {
         }
     }
 
-    // În clasa User sau Portfolio
+
     public void buyStock(Stock stock, int quantity) {
-        // Implementează logica de cumpărare a stocurilor
-        // Poate fi necesar să adaugi gestionarea tranzacțiilor și actualizarea portofoliului
+
     }
-    // În clasa User sau Portfolio
+
     public void sellStock(Stock stock, int quantity) {
-        // Implementează logica de vânzare a stocurilor
-        // Poate fi necesar să adaugi gestionarea tranzacțiilor și actualizarea portofoliului
+
     }
 
     // Metodă pentru eliminarea unui stock din portofoliu
@@ -69,5 +67,5 @@ public class Portfolio {
         // Verificăm dacă avem suficient stoc dintr-un anumit tip pentru a vinde
         return stocks.contains(stock) && stocks.get(stocks.indexOf(stock)).getQuantity() >= quantity;
     }
-    // Alte metode pentru gestionarea portofoliului, dacă este necesar
+
 }

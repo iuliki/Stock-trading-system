@@ -11,6 +11,6 @@ public class UserPortfolioObserver implements StockObserver {
 
     @Override
     public void update() {
-        // Implementarea actualizării portofoliului utilizatorului
+
     }
 }

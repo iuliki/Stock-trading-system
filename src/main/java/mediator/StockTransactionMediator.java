@@ -11,6 +11,6 @@ public class StockTransactionMediator implements TransactionMediator {
     @Override
     public void notify(Transaction transaction) {
         transactions.add(transaction);
-        // Alte acțiuni de mediere, dacă sunt necesare
+
     }
 }
