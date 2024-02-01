@@ -24,12 +24,12 @@ public class StockTradingSystem {
     }
 
     private void initializeUsers() {
-        User user1 = new User("john.doe@email.com", "password", "password", new Portfolio(), 1000.0);
-        User user2 = new User("jane.smith@email.com", "password", "password", new Portfolio(),  1000.0);
-        User user3 = new User("bob.jones@email.com", "\"password", "password", new Portfolio(),  1000.0);
-        User user4 = new User("alice.white@email.com", "password", "password", new Portfolio(),  1000.0);
-        User user5 = new User("charlie.brown@email.com", "password\",", "password", new Portfolio(),  1000.0);
-        User user6 = new User("emma.johnson@email.com", "password", "password", new Portfolio(),  1000.0);
+        User user1 = new User("john.doe@email.com", "password", "John doe", new Portfolio(), 1000.0);
+        User user2 = new User("jane.smith@email.com", "password", "jane smith", new Portfolio(),  1000.0);
+        User user3 = new User("bob.jones@email.com", "\"password", "bob jones", new Portfolio(),  1000.0);
+        User user4 = new User("alice.white@email.com", "password", "alice white", new Portfolio(),  1000.0);
+        User user5 = new User("charlie.brown@email.com", "password\",", "charlie brown", new Portfolio(),  1000.0);
+        User user6 = new User("emma.johnson@email.com", "password", "emma johnson", new Portfolio(),  1000.0);
 
         users.add(user1);
         users.add(user2);
